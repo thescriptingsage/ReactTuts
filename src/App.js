@@ -20,11 +20,13 @@ function App() {
 
   return (
     <div className="App">
+       
        <h1>Hello World</h1>
       <Greeting name="Priyanka" handleClick={handleClickFromParent}/>
       <FunctionalComponent/>
       <ClassComponent/>
       <MyButton/>
+    
       <div onClick={handleDivClick}>
         <a href="http://www.google.com" onClick={handlePreventDefault}>Click Me</a>
       </div>
